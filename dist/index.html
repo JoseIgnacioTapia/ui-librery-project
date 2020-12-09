@@ -1,0 +1,90 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>UI Library</title>
+    <style>
+      body {
+        font-size: 1.5em;
+      }
+      .container {
+        margin: 40px;
+        margin-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- tooltip -->
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore libero
+        consequuntur hic sunt quas ratione, vitae
+        <span class="tooltip" data-message="I'm a tooltip!!"
+          >expedita harum </span
+        >ex quaerat. Molestiae vel dolorem aspernatur nesciunt at, nemo hic.
+      </p>
+      <h2>Services</h2>
+      <!-- dropdowns -->
+      <div class="dropdown">
+        <div class="trigger">Awesome T-shirt Designs</div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            veritatis consequatur repudiandae hic maxime, in aspernatur delectus
+            blanditiis repellendus quae.
+          </p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="trigger">Cool Sticker Printing</div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            veritatis consequatur repudiandae hic maxime, in aspernatur delectus
+            blanditiis repellendus quae.
+          </p>
+        </div>
+      </div>
+
+      <h2>More Information</h2>
+      <!-- tabs -->
+      <div class="tabs">
+        <ul>
+          <li class="trigger active" data-target="#about">About</li>
+          <li class="trigger" data-target="#delivery">Delivery info</li>
+          <li class="trigger" data-target="#returns">Returns info</li>
+        </ul>
+        <div id="about" class="content active">
+          <h3>About</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam,
+            illo ab aperiam fugit quibusdam blanditiis repellendus ipsum fuga
+            placeat quisquam. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Repellendus, sequi.
+          </p>
+        </div>
+        <div id="delivery" class="content">
+          <h3>delivery</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
+            obcaecati repudiandae perspiciatis ratione modi voluptate! Nobis
+            nemo cumque ratione itaque nisi corrupti quos qui odit, accusamus
+            error, minus voluptatum quod!
+          </p>
+        </div>
+        <div id="returns" class="content">
+          <h3>returns</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Exercitationem, dolorum dolore praesentium similique doloremque
+            expedita, deleniti velit esse autem consectetur, eligendi facilis!
+            Ducimus quas ab debitis sunt porro quae deserunt.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/bundle.js"></script>
+  </body>
+</html>
